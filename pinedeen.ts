@@ -4,7 +4,6 @@
 */
 
 interface KV {
-    key: state;
     action: Action;
 }
 
