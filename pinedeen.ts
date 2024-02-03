@@ -19,11 +19,11 @@ namespace Pinedeen {
 
     export enum Motors {
         //% blockId="left motor" block="left"
-        PM1 = 0,
+        M1 = 0,
         //% blockId="right motor" block="right"
-        PM2 = 1,
+        M2 = 1,
         //% blockId="all motor" block="all"
-        PAll = 2
+        All = 2
     }
 
     export enum Dir {
