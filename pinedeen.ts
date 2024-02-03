@@ -8,7 +8,7 @@ interface KV {
     action: Action;
 }
 
-//% weight=100 color=#008B00 icon="\uf136" block="Maqueen"
+//% weight=100 color=#008B00 icon="\uf136" block="Pinedeen"
 //% groups=['micro:bit(v2)']
 namespace Pinedeen {
     let kbCallback: KV[] = []
