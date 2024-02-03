@@ -37,7 +37,7 @@ namespace Pinedeen {
      */
 
     //% weight=90
-    //% blockId=motor_MotorRun block="Pinmotor|%index|move|%Dir|at speed|%speed"
+    //% blockId=motor_MotorRunP block="Pinmotor|%index|move|%Dir|at speed|%speed"
     //% speed.min=0 speed.max=255
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     //% direction.fieldEditor="gridpicker" direction.fieldOptions.columns=2
@@ -62,7 +62,7 @@ namespace Pinedeen {
      */
 
     //% weight=20
-    //% blockId=motor_motorStop block="Pinmotor |%motors stop"
+    //% blockId=motor_motorStopP block="Pinmotor |%motors stop"
     //% motors.fieldEditor="gridpicker" motors.fieldOptions.columns=2 
     export function motorStop(motors: Motors): void {
         let buf = pins.createBuffer(3);
